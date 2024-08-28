@@ -1,5 +1,5 @@
 name: napari-plugin-01
-display_name: Pokus-01
+display_name: napari-plugin-01
 # use 'hidden' to remove plugin from napari hub search results
 visibility: public
 # see https://napari.org/stable/plugins/manifest.html for valid categories

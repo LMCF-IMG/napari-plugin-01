@@ -6,7 +6,7 @@ readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
   {name = "MC"},
-  {email = "mc00seznam.cz"},
+  {email = "mc00@seznam.cz"},
 ]
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
