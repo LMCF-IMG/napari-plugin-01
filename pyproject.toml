@@ -45,7 +45,6 @@ testing = [
 napari-plugin-01 = "napari_plugin_01:napari.yaml"
 
 
-
 [build-system]
 requires = ["setuptools>=42.0.0", "wheel"]
 build-backend = "setuptools.build_meta"

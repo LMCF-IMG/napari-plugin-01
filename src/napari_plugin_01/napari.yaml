@@ -21,15 +21,18 @@ contributions:
     - id: napari-plugin-01.make_container_widget
       python_name: napari_plugin_01:ImageThreshold
       title: Make threshold Container widget
-    - id: napari-plugin-01.make_magic_widget
-      python_name: napari_plugin_01:threshold_magic_widget
-      title: Make threshold magic widget
+#    - id: napari-plugin-01.make_magic_widget
+#      python_name: napari_plugin_01:threshold_magic_widget
+#      title: Make threshold magic widget
     - id: napari-plugin-01.make_function_widget
       python_name: napari_plugin_01:threshold_autogenerate_widget
       title: Make threshold function widget
     - id: napari-plugin-01.make_qwidget
-      python_name: napari_plugin_01:ExampleQWidget
-      title: Make example QWidget
+      python_name: napari_plugin_01:MyQWidget
+      title: Make my example QWidget
+    - id: napari-plugin-01.make_magic_widget
+      python_name: napari_plugin_01:MyExampleMagicGUI
+      title: Make magic GUI widget
   readers:
     - command: napari-plugin-01.get_reader
       accepts_directories: false
@@ -48,10 +51,13 @@ contributions:
   widgets:
     - command: napari-plugin-01.make_container_widget
       display_name: Container Threshold
-    - command: napari-plugin-01.make_magic_widget
-      display_name: Magic Threshold
+#    - command: napari-plugin-01.make_magic_widget
+#      display_name: Magic Threshold
     - command: napari-plugin-01.make_function_widget
       autogenerate: true
       display_name: Autogenerate Threshold
     - command: napari-plugin-01.make_qwidget
-      display_name: Example QWidget
+      display_name: MyQWidget
+    - command: napari-plugin-01.make_magic_widget
+      display_name: Magic GUI
+
